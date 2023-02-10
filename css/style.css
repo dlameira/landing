@@ -1,0 +1,91 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,400&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+
+@import url(components/buttons.css);
+@import url(components/cards.css);
+
+
+
+/* Utilities */
+body {
+  margin: 0px;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4, p, a {
+  font-family: 'Poppins', Times, serif;
+}
+
+h2 {
+    margin: 0
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  width: 100%;
+}
+
+
+.header-img {
+  width: 100%;
+  ;
+
+}
+
+.banner h1 {
+  margin: 0px;
+  align-items: center;
+  font-size: 120px;
+  color: rgb(239, 255, 22);
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+}
+
+.banner p {
+  color: black;
+  opacity: .7;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 15px;
+  font-weight: 600;
+
+}
+
+.containertop {
+  background-color: #1392bf;
+  margin-top: -100px;
+  margin-bottom: 0px;
+  padding-left: 80px;
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+.container {
+  position: flex;
+  background-color: pink;
+  height: 600px;
+  justify-content: space-evenly;
+}
+
+.container h2 {
+  margin-left: 140px;
+  padding-top: 40px;
+}
+
+.footer {
+  background-color: black;
+  margin: 0px;
+  height: 100px;
+}
+
+.footer h3 {
+  margin: 0px;
+  color: white;
+}
+/* Custom design below! */
